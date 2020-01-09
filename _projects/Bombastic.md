@@ -2,7 +2,7 @@
 title: Bombastic 
 layout: page
 tools: [Unity3D, C#, Photon Bolt]
-image: /assets/media/Bombastic /Bombastic_06.png
+image: /assets/media/Bombastic/Bombastic_06.png
 description: Uni Game Project 
 ---
 <div class="row">
