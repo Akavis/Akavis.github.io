@@ -18,8 +18,8 @@ description: Uni Game Project
 	</div>
 
 	<div class="col-sm">
+		<h2 class="row info role">Gameplay Programmer</h2>
 		<a class="row info date">2016, Gunsloth</a>
-		<a class="row info role">Gameplay Programmer</a>
 
 		<div class="row info">
 			Bombastic is a couch multiplayer platformer where you and your friends

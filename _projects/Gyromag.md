@@ -22,8 +22,8 @@ description: Uni Game Project
 	</div>
 
 	<div class="col-sm">
+		<h2 class="row info role">Network, Gameplay and Tools Programmer</h2>
 		<a class="row info date">April 2016 - April 2017, Gunsloth</a>
-		<a class="row info role">Network, Gameplay and Tools Programmer</a>
 		<div class="row info">
 			Gyromag is an online multiplayer where you compete in fast paced 4v4 battles.
 			Use an extreme arsenal and bend gravity to your will to become the reigning champion. 

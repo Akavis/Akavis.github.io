@@ -1,9 +1,10 @@
 body{
-	color: #2c3e50;
+	color: $body;
+	background-color: $bg
 }
 
 .page-header {
-	color: #e74c3c;
+	color: $title;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -29,6 +30,9 @@ footer {
 	font-family: 'Ubuntu';
 }
 
-
+.date {
+	font-family: "Courier New", Courier, monospace;
+	margin-bottom: 10px;
+}
 
 

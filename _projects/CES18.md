@@ -17,8 +17,8 @@ description: Working at Puredepth APTIV.
 		{% include elements/carousel.html  %}
 	</div>
 	<div class="col-sm">
+		<h2 class="row info role">System Architecture and Tools Programmer</h2>
 		<a class="row info date">November 2017 - January 2018, Puredepth APTIV</a>
-		<a class="row info role">System Architecture and Tools Programmer</a>
 		<div class="row info">	
 			Developed  3 screens that “simulated” autonomous vehicles on request. 
 			To achieve this project, I spent my time working on the control panel that manipulated the other 2 displays.

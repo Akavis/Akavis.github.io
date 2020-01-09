@@ -18,8 +18,8 @@ description: Uni Game Project
 	</div>
 
 	<div class="col-sm">
+		<h2 class="row info role">Gameplay Programmer</h2>
 		<a class="row info date">2016, Gunsloth</a>
-		<a class="row info role">Gameplay Programmer</a>
 		<div class="row info">
 			As a two week prototype, we wanted to create a truly novel experience -
 			something that you could play with a friend and come away reeling from the visceral moments you shared

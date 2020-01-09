@@ -12,9 +12,10 @@ description: Contacted by APTIV to create 3 applications that help showcase thei
 		{% include elements/carousel.html  %}
 	</div>
 	<div class="col-sm">
+	
+		<h2 class="row info role">Systems Programmer</h2>
 		<a class="row info date">November 2019 - January 2020, Contract for APTIV</a>
-		<a class="row info role">Systems Programmer</a>
-
+		
 		<div class="row info">	
 			<a>
 				Contracted by <b>APTIV</b> to develop 3 networked applications driven by <b>Unity3D</b> 

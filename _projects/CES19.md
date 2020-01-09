@@ -11,8 +11,8 @@ description: Working at Puredepth APTIV.
 		{% include elements/carousel.html  %}
 	</div>
 	<div class="col-sm">
+		<h2 class="row info role">System Architecture and Tools Programmer</h2>
 		<a class="row info date">November 2018 - January 2019, Puredepth APTIV</a>
-		<a class="row info role">System Architecture and Tools Programmer</a>
 		<div class="row info">
 			<a>
 				<b>MLD</b> enhanced showcase of driver state detection and safety. 
