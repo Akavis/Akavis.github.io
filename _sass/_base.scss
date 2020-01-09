@@ -1,0 +1,34 @@
+body{
+	color: #2c3e50;
+}
+
+.page-header {
+	color: #e74c3c;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+@media only screen and (min-width: 768px) {
+    .page-header{
+        margin-right: 70px;
+    }
+}
+
+.info {
+	padding: 0 5% 0;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+
+.author .author-image {
+  float: left;
+  margin-right: 20px;
+}
+
+footer {
+	padding-top: 15px;
+	font-family: 'Ubuntu';
+}
+
+
+
+

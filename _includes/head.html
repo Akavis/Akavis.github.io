@@ -1,0 +1,26 @@
+ <head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	{% if page.description %}
+		<meta name="description" content="{{ page.description }}">
+	{% endif %}
+	<meta name="author" content="{{ site.author.name }}">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<!-- Styles -->
+	<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css">
+	<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/style.css">
+	
+	<!-- Animate CSS CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	-->
+ </head>

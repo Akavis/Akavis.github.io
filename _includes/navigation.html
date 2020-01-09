@@ -1,0 +1,78 @@
+<nav class="navbar navbar-default visible-xs" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		{% include nav/social-navbar.html %}
+		<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
+			<img src="//www.gravatar.com/avatar/{{ site.author.image }}?s=35" class="img-circle" />
+			{{ site.title }}
+		</a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+				{% assign pages = site.html_pages | sort: 'weight' %}
+				{% for nav_page in pages %}
+					{% if nav_page.url != "/404.html" %}
+						{% if page.url contains nav_page.url %}
+							{% assign active_status = "active" %}
+						{% else %}
+							{% assign active_status = "" %}
+						{% endif %}
+				
+						{% if nav_page.external_url %}
+							{% assign url = nav_page.external_url %}
+						{% else %}
+							{% assign url = nav_page.url | relative_url %}
+						{% endif %}
+						
+						{% unless nav_page.url contains 'page' or nav_page.url contains 'tags' %}
+							<li><a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ nav_page.title }}</a></li>
+						{% endunless %}
+					{% endif %}
+				{% endfor %}	
+		</ul>
+	</div><!-- /.navbar-collapse -->
+</nav>
+
+<!-- nav-menu-dropdown -->
+<div class="btn-group hidden-xs" id="nav-menu">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+		<i class="fa fa-bars"></i>
+	</button>
+	<ul class="dropdown-menu" role="menu">
+		{% assign pages = site.html_pages | sort: 'weight' %}
+				{% for nav_page in pages %}
+					{% if nav_page.url != "/404.html" %}
+						{% if page.url contains nav_page.url %}
+							{% assign active_status = "active" %}
+						{% else %}
+							{% assign active_status = "" %}
+						{% endif %}
+				
+						{% if nav_page.external_url %}
+							{% assign url = nav_page.external_url %}
+						{% else %}
+							{% assign url = nav_page.url | relative_url %}
+						{% endif %}
+						
+						{% unless nav_page.url contains 'page' or nav_page.url contains 'tags' %}
+							<li><a class="nav-item nav-link {{ active_status }}" href="{{ url }}"><i class="{{ nav_page.icon }}"></i>{{ nav_page.title }}</a></li>
+						{% endunless %}
+					{% endif %}
+				{% endfor %}
+		<li class="divider"></li>
+		<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+	</ul>
+</div>
+
+<div class="col-sm-3 sidebar hidden-xs" style="{% if site.sidebar_background_image %}background: url({{site.sidebar_background_image}}) no-repeat !important;{% endif %}">
+	{% include nav/sidebar.html %}
+</div>
+<!-- navigation end -->

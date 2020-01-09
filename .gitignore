@@ -1,7 +1,4 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-Gemfile
+_config.yml
+_site/*
+*Thumbs.db
 Gemfile.lock

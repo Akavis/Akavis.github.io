@@ -1,0 +1,21 @@
+ <div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		{% assign unfocused-color = site.data.social-media.unfocused-color %}
+		{% for account in site.author %}
+			{% assign service_name = account[0] %}
+			{% if service_name == "name" or service_name == "image" %}
+			  {% continue %}
+			{% endif %}
+			{% assign service_data = site.data.social-media[service_name] %}
+			<li>
+				<a class="btn btn-default btn-sm"  href="{{ service_data.url }}{{ account[1] }}"
+				   style="color: #{{ unfocused-color }}"
+				   onMouseOver="this.style.color='#{{ service_data.color }}'"
+				   onMouseOut="this.style.color='#{{ unfocused-color }}'">
+				  <i class="{{ service_data.icon }} fa-lg"></i>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
+			
