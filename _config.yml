@@ -11,9 +11,8 @@ BASE_PATH: ""
 ### about Info ###
 about:
   desc              : >-
-                      I began as a hobbyist game developer,
-                      who had dabbled in fields such as 3D printing, guitar building,
-                      and automotive software/mechanics/panel beating.<br>
+                      After dabbling in fields such as 3D printing, guitar building,
+                      and automotive mechanics/panel beating during highshool, I tried my hand at building games.<br>
                       Since then I decided to pursue a career in software engineering and I’ve never looked back!
 ### Author Info ###
 author:
