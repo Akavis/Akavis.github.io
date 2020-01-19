@@ -3,7 +3,7 @@ title: Gyromag
 layout: page
 tools: [Unity3D, C#, Photon Bolt]
 image:  /assets/media/Gyromag/Title.gif
-description: Uni Game Project 
+description: MDS Business Accelerator Game Project 
 ---
 <div class="row">
 	<div class="col-lg">

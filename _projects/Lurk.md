@@ -1,7 +1,7 @@
 ---
 title: Lurk
 layout: page
-tools: [Unity3D, C#, Photon Bolt]
+tools: [Unity3D, C#]
 image: /assets/media/Lurk/Title.png
 description: Uni Game Project 
 ---

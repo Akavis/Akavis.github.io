@@ -1,7 +1,7 @@
 ---
 title: APTIV CES 2020
 layout: page
-tools: [Unity3D, C#, UDP, ]
+tools: [Unity3D, C#, UDP, APTIV DSS, C++]
 image: /assets/media/CES20/aptiv-ces2020-booth-displays.jpg
 description: Contacted by APTIV to create 3 applications that help showcase their technology at CES20, Las Vegas.  
 ---
